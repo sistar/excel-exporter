@@ -1,6 +1,6 @@
 (ns excel-exporter.kiez2013
   (:use excel-exporter.excel-reader))
-(def sheet-info {:file "D:/Downloads/Starterliste2013-120Starter.xlsx" :heading-row-index 0 :startnummer-title "Nr." :verein-title "Verein"})
+(def sheet-info {:file "examples/data/Starterliste2013-120Starter.xlsx" :heading-row-index 0 :startnummer-title "Nr." :verein-title "Verein"})
 (defonce sheet (first (sheets  (workbook (:file sheet-info)))))
 (defonce col-indices {:verein-title (col-idx sheet-info sheet :verein-title )
                       :startnummer-title (col-idx sheet-info sheet :startnummer-title)
