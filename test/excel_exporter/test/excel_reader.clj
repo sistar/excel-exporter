@@ -48,4 +48,7 @@
 
   (fact "Verein fuer Startnummer"
     (let [r (kiez2013/row-by-startnummer 1)]
-      (kiez2013/verein-fn r) => "TSV Nusse")))
+      (kiez2013/verein-fn r) => "TSV Nusse"))
+  (fact "Verein fuer Startnummer 62"
+    (let [r (kiez2013/row-by-startnummer 62)]
+      (kiez2013/verein-fn r) => nil)))

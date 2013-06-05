@@ -3,6 +3,7 @@
   (:import [org.apache.poi.xssf.usermodel XSSFWorkbook])
   (:import [org.apache.poi.hssf.usermodel HSSFWorkbook])
   (:import [org.apache.poi.ss.usermodel Row Cell DateUtil WorkbookFactory CellStyle Font]))
+
 (defn indexed
   "Returns a lazy sequence of [index, item] pairs, where items come
   from 's' and indexes count up from zero.
@@ -26,18 +27,22 @@
       (Integer. (filter-digits s)))))
 (defn cell-value
   "Return proper getter based on cell-value"
-  ([cell] (cell-value cell (.getCellType cell)))
+  ([cell] (if (nil? cell)
+            nil
+            (cell-value cell (.getCellType cell))))
   ([cell cell-type]
-    (condp = cell-type
-      Cell/CELL_TYPE_BLANK nil
-      Cell/CELL_TYPE_STRING (.getStringCellValue cell)
-      Cell/CELL_TYPE_NUMERIC (if (DateUtil/isCellDateFormatted cell)
-                               (.getDateCellValue cell)
-                               (.getNumericCellValue cell))
-      Cell/CELL_TYPE_BOOLEAN (.getBooleanCellValue cell)
-      Cell/CELL_TYPE_FORMULA {:formula (.getCellFormula cell)}
-      Cell/CELL_TYPE_ERROR {:error (.getErrorCellValue cell)}
-      :unsupported )))
+    (if (nil? cell)
+      nil
+      (condp = cell-type
+        Cell/CELL_TYPE_BLANK nil
+        Cell/CELL_TYPE_STRING (.getStringCellValue cell)
+        Cell/CELL_TYPE_NUMERIC (if (DateUtil/isCellDateFormatted cell)
+                                 (.getDateCellValue cell)
+                                 (.getNumericCellValue cell))
+        Cell/CELL_TYPE_BOOLEAN (.getBooleanCellValue cell)
+        Cell/CELL_TYPE_FORMULA {:formula (.getCellFormula cell)}
+        Cell/CELL_TYPE_ERROR {:error (.getErrorCellValue cell)}
+        :unsupported ))))
 (defn workbook
   "Create or open new excel workbook. Defaults to xlsx format."
   ([] (new XSSFWorkbook))
@@ -63,7 +68,7 @@
         title-cells (cells (nth (rows sheet) (sheet-description :heading-row-index )))
         title-strings (map cell-value title-cells)
         cell-indices (map #(.getColumnIndex %) title-cells)
-        m (zipmap  title-strings cell-indices)
+        m (zipmap title-strings cell-indices)
         ]
     (m title-string)))
 
@@ -93,11 +98,11 @@
 (defn cell-value-of-column [column-idx row]
   (if (nil? row)
     nil
-    (let [ cs (cells row)
-           cell-indices (map #(.getColumnIndex %) cs)
+    (let [cs (cells row)
+          cell-indices (map #(.getColumnIndex %) cs)
           m (zipmap cell-indices cs)
           act-cell-vals (map cell-value (cells row))
-          act-val (cell-value(m column-idx))
+          act-val (cell-value (m column-idx))
           ]
 
       (if (number? act-val)

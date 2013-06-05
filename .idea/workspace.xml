@@ -2,33 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1333efe0-3464-4cea-a09d-e4cd180cb67d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/examples/collection.clj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/examples.clj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/excel_exporter/excel_reader.clj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/excel_exporter/test/excel_reader.clj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/excel_exporter/kiez2013.clj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/excel_exporter/test/kiez2013.clj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/examples/olympics.clj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project.clj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/examples/server.clj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/examples/util.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/excel_exporter/excel_reader.clj" afterPath="$PROJECT_DIR$/src/excel_exporter/excel_reader.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/excel_exporter/test/excel_reader.clj" afterPath="$PROJECT_DIR$/test/excel_exporter/test/excel_reader.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="excel-exporter.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/" />
     <ignored path=".lein-repl-history" />
     <ignored path="excel_exporter.iml" />
-    <file path="/excel_reader.clj" changelist="1333efe0-3464-4cea-a09d-e4cd180cb67d" time="1370361331060" ignored="false" />
+    <file path="/excel_reader.clj" changelist="1333efe0-3464-4cea-a09d-e4cd180cb67d" time="1370422849109" ignored="false" />
     <file path="/project.clj" changelist="1333efe0-3464-4cea-a09d-e4cd180cb67d" time="1370329431788" ignored="false" />
-    <file path="/Clojure REPL" changelist="1333efe0-3464-4cea-a09d-e4cd180cb67d" time="1370361404433" ignored="false" />
+    <file path="/Clojure REPL" changelist="1333efe0-3464-4cea-a09d-e4cd180cb67d" time="1370422132574" ignored="false" />
     <file path="/excel-reader.clj" changelist="1333efe0-3464-4cea-a09d-e4cd180cb67d" time="1370272294744" ignored="false" />
-    <file path="/a.dummy" changelist="1333efe0-3464-4cea-a09d-e4cd180cb67d" time="1370359763259" ignored="false" />
+    <file path="/a.dummy" changelist="1333efe0-3464-4cea-a09d-e4cd180cb67d" time="1370419820027" ignored="false" />
     <file path="/collection.clj" changelist="1333efe0-3464-4cea-a09d-e4cd180cb67d" time="1370340692461" ignored="false" />
-    <file path="/kiez2013.clj" changelist="1333efe0-3464-4cea-a09d-e4cd180cb67d" time="1370360729413" ignored="false" />
-    <file path="/Dummy.txt" changelist="1333efe0-3464-4cea-a09d-e4cd180cb67d" time="1370361533176" ignored="false" />
+    <file path="/kiez2013.clj" changelist="1333efe0-3464-4cea-a09d-e4cd180cb67d" time="1370405245037" ignored="false" />
+    <file path="/Dummy.txt" changelist="1333efe0-3464-4cea-a09d-e4cd180cb67d" time="1370422974765" ignored="false" />
     <file path="/README.md" changelist="1333efe0-3464-4cea-a09d-e4cd180cb67d" time="1370361817227" ignored="false" />
+    <file path="/.gitignore" changelist="1333efe0-3464-4cea-a09d-e4cd180cb67d" time="1370405467252" ignored="false" />
+    <file path="/parse_tria_results.clj" changelist="1333efe0-3464-4cea-a09d-e4cd180cb67d" time="1370422148757" ignored="false" />
+    <file path="$PROJECT_DIR$/../notes/clojure/midje-demo/src/midje_demo/parse_tria_results.clj" changelist="1333efe0-3464-4cea-a09d-e4cd180cb67d" time="1370422184393" ignored="false" />
+    <file path="$PROJECT_DIR$/../notes/clojure/midje-demo/test/midje_demo/t_parse_tria_results.clj" changelist="1333efe0-3464-4cea-a09d-e4cd180cb67d" time="1370420973040" ignored="false" />
+    <file path="/t_parse_tria_results.clj" changelist="1333efe0-3464-4cea-a09d-e4cd180cb67d" time="1370420667777" ignored="false" />
+    <file path="$PROJECT_DIR$/../notes/clojure/midje-demo/project.clj" changelist="1333efe0-3464-4cea-a09d-e4cd180cb67d" time="1370421873026" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,16 +90,7 @@
       <file leaf-file-name="excel_reader.clj" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/excel_exporter/test/excel_reader.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="64" selection-start="1304" selection-end="1304" vertical-scroll-proportion="-24.074074">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="23" selection-start="313" selection-end="313" vertical-scroll-proportion="0.5368421">
+            <state line="53" column="22" selection-start="1688" selection-end="1688" vertical-scroll-proportion="-23.333334">
               <folding />
             </state>
           </provider>
@@ -110,7 +99,16 @@
       <file leaf-file-name="kiez2013.clj" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/excel_exporter/kiez2013.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="35" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0">
+            <state line="7" column="5" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="5" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -125,10 +123,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="excel_reader.clj" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="project.clj" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="74" selection-start="601" selection-end="698" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="excel_reader.clj" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/excel_exporter/excel_reader.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="6" selection-start="3004" selection-end="3004" vertical-scroll-proportion="-5.259259">
+            <state line="44" column="25" selection-start="1593" selection-end="1593" vertical-scroll-proportion="0.73137695">
               <folding />
             </state>
           </provider>
@@ -189,7 +196,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/excel_exporter/test/handler.clj" />
         <option value="$PROJECT_DIR$/src/excel_exporter/excel-reader.clj" />
         <option value="$PROJECT_DIR$/src/examples/collection/collection.clj" />
         <option value="$PROJECT_DIR$/src/server.clj" />
@@ -200,11 +206,12 @@
         <option value="$PROJECT_DIR$/tree.txt" />
         <option value="$PROJECT_DIR$/project.clj" />
         <option value="$PROJECT_DIR$/src/examples/collection.clj" />
-        <option value="$PROJECT_DIR$/src/excel_exporter/kiez2013.clj" />
-        <option value="$PROJECT_DIR$/src/excel_exporter/excel_reader.clj" />
         <option value="$PROJECT_DIR$/test/excel_exporter/test/kiez2013.clj" />
-        <option value="$PROJECT_DIR$/test/excel_exporter/test/excel_reader.clj" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/excel_exporter/kiez2013.clj" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/test/excel_exporter/test/excel_reader.clj" />
+        <option value="$PROJECT_DIR$/src/excel_exporter/excel_reader.clj" />
       </list>
     </option>
   </component>
@@ -327,6 +334,88 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="excel-exporter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="excel-exporter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="excel-exporter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="excel-exporter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="excel-exporter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="excel-exporter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="excel-exporter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="excel-exporter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="excel-exporter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="excel-exporter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -340,6 +429,7 @@
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="org.jetbrains.plugins.clojure.settings.ClojureConfigurable" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../notes/clojure/midje-demo/project.clj" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -353,6 +443,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\opensource\GitHub\excel-exporter\examples\data" />
       <recent name="D:\opensource\GitHub\excel-exporter\test\excel_exporter\test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -526,27 +617,32 @@
       <created>1369996349301</created>
       <updated>1369996349301</updated>
     </task>
+    <task id="LOCAL-00001" summary="excel file as part of project data">
+      <created>1370405375783</created>
+      <updated>1370405375783</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1911" y="-9" width="1938" height="1098" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.69330454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26345292" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19123931" sideWeight="0.67062634" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19123931" sideWeight="0.7365471" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27586207" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32937366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67062634" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48060346" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.537797" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.46220303" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TunnelliJ" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.7241379" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -607,7 +703,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix npe for empty target cell returned as nil by poi" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -621,6 +717,8 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="excel file as part of project data" />
+    <MESSAGE value="fix npe for empty target cell returned as nil by poi" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -630,20 +728,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/data.json/0.2.1/data.json-0.2.1.jar!/clojure/data/json.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="385" column="6" selection-start="12748" selection-end="12748" vertical-scroll-proportion="-0.05473204">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/examples/util.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="1890" selection-end="1890" vertical-scroll-proportion="1.4090909">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/data.json/0.2.1/data.json-0.2.1.jar!/clojure/data/json_compat_0_1.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="11" selection-start="1933" selection-end="1933" vertical-scroll-proportion="1.9222012">
@@ -707,6 +791,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="23" selection-start="313" selection-end="313" vertical-scroll-proportion="0.5049505">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="5" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="74" selection-start="601" selection-end="698" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/excel_exporter/test/kiez2013.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="5" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0">
@@ -714,30 +819,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/excel_exporter/excel_reader.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="6" selection-start="3004" selection-end="3004" vertical-scroll-proportion="-5.259259">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/excel_exporter/kiez2013.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="35" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0">
+        <state line="7" column="5" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/excel_exporter/test/excel_reader.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="64" selection-start="1304" selection-end="1304" vertical-scroll-proportion="-24.074074">
+        <state line="53" column="22" selection-start="1688" selection-end="1688" vertical-scroll-proportion="-23.333334">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/excel_exporter/excel_reader.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="23" selection-start="313" selection-end="313" vertical-scroll-proportion="0.5368421">
+        <state line="44" column="25" selection-start="1593" selection-end="1593" vertical-scroll-proportion="0.73137695">
           <folding />
         </state>
       </provider>
