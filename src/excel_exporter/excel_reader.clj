@@ -76,15 +76,12 @@
   (map #(nth (cells %) idx) rows)
   )
 
-(defn till-empty [sq]
+(defn till-empty ([sq]
   (loop [idx -1 sq-rest sq]
 
     (if (empty? sq-rest)
-      idx
+      (inc idx)
       (let [act (first sq-rest)]
-
-        (if (nil? act)
-          idx
           (recur (inc idx) (rest sq-rest)))))))
 
 

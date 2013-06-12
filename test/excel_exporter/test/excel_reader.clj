@@ -5,11 +5,22 @@
   )
 
 (facts "till-empty"
-  (fact "empty"
-    (till-empty '()) => -1
-    )
-  (fact "one elment"
-    (till-empty '(1)) => 0
+  (let [f (fn [x] (prn "value:" x))]
+
+
+
+    (fact "empty"
+      (till-empty '() ) => 0
+      )
+    (fact "one elment"
+      (till-empty '(1)) => 1
+      )
+    (fact "nil elment"
+      (till-empty '(nil 1)) => 2
+      )
+    (fact "two elments"
+      (till-empty '("a" 1)) => 2
+      )
     )
   )
 

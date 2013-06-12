@@ -8,5 +8,9 @@
 (def verein-fn (partial cell-value-of-column (col-indices :verein-title )))
 (def startnummer-fn (partial cell-value-of-column (col-indices :startnummer-title )))
 (def row-by-startnummer (partial row-by-number-col startnummer-fn sheet ))
-(defn verein-by-startnummer [startnummer] {:verein (verein-fn(row-by-startnummer startnummer))})
+(defn map-for-verein-by-starnummer [startnummer]
+  {:verein (verein-fn(row-by-startnummer startnummer))}
+  )
+(def map-for-verein-by-starnummer-memo (memoize map-for-verein-by-starnummer))
+(defn verein-by-startnummer [startnummer] (map-for-verein-by-starnummer-memo startnummer))
 (defn vereine-list [] (vereine sheet))
